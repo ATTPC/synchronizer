@@ -1,0 +1,16 @@
+[package]
+name = "synchronizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.20"
+color-eyre = { version = "0.6.3", default-features = false }
+hdf5-metno = "0.9.2"
+human_bytes = "0.4.3"
+indicatif = "0.17.8"
+ndarray = "0.16.1"
+polars = { version = "0.43.1", features = ["parquet"] }
+rustc-hash = "2.0.0"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_yaml = "0.9.34"
